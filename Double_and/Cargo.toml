@@ -1,0 +1,12 @@
+[package]
+name = "double_and"
+version = "0.1.0"
+authors = ["etudiant"]
+
+[dependencies.oak_runtime]
+path = "oak/runtime"
+version = "0.5.5"
+
+[dependencies.oak]
+path = "oak"
+version = "0.5.5"
