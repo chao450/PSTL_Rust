@@ -17,8 +17,6 @@ grammar! useless_chaining {
   test9 = &(!"a")
   test10 = &(test9)
   test11 = &(test10)
-  test12 = &(test11)
-  test13 = &(test12)
 }
 
 fn main() {
