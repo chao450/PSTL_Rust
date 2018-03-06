@@ -1,0 +1,26 @@
+[package]
+
+name = "oak"
+version = "0.5.6"
+authors = [ "Pierre Talbot <ptalbot@hyc.io>" ]
+
+description = "A typed parser generator syntax extension for Parsing Expression Grammar (PEG)."
+repository = "https://github.com/ptal/oak"
+documentation = "http://hyc.io/oak"
+readme = "README.md"
+keywords = ["parser", "peg", "grammar", "typing", "parsing"]
+categories = ["parsing"]
+license = "Apache-2.0"
+
+[lib]
+
+name = "oak"
+path = "src/liboak/lib.rs"
+plugin = true
+
+[dev-dependencies.oak_runtime]
+path = "runtime"
+version = "0.5.5"
+
+[dependencies]
+partial = "^0.2.3"
