@@ -28,6 +28,12 @@ grammar! useless_chaining {
   test16 = test15+
 
   test17 = test15*
+
+  test18 = &test12
+  test19 = test16+
+
+  test20 = ((("a")+)+)+
+  test21 = &(&(&("a")))
 }
 
 fn main() {
